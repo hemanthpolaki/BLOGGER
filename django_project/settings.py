@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_BLOGGER_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
-DEBUG = os.environ.get('DJANGO_BLOGGER_DEBUG_VALUE')
+DEBUG = (os.environ.get('DJANGO_BLOGGER_DEBUG_VALUE') == 'True')
 
 
 ALLOWED_HOSTS = ['blogger7.herokuapp.com', 'localhost']
