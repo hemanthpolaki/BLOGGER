@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get('DJANGO_BLOGGER_SECRET_KEY')
 DEBUG = os.environ.get('DJANGO_BLOGGER_DEBUG_VALUE')
 
 
-ALLOWED_HOSTS = ['blogger7.herokuapp.com']
+ALLOWED_HOSTS = ['blogger7.herokuapp.com', 'localhost']
 
 
 # Application definition
